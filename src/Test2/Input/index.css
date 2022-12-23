@@ -1,0 +1,73 @@
+.input {
+  display: flex;
+  border: 1px solid #31BE95;
+  border-radius: 5px;
+  position: relative;
+}
+
+.input--focus {
+  outline: #17a325 solid 1px;
+}
+
+.input__prefix-icon {
+  width: 20px;
+}
+
+.gg-search {
+  box-sizing: border-box;
+  position: relative;
+  top: 6px;
+  left: 7px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid;
+  border-radius: 100%;
+  color: gainsboro;
+}
+
+.gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 6px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 7px;
+  left: 9px;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 600px;
+  line-height: 1.2rem;
+  padding: 4px 24px 4px 8px;
+}
+
+.input__clear {
+  height: 100%;
+  width: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  color: gainsboro;
+}
+
+.input__clear:after {
+  width: 100%;
+  height: 100%;
+  content: "\d7";
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.input__clear:hover:after {
+  font-size: 24px;
+}

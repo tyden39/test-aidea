@@ -1,0 +1,73 @@
+.test2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background: #31BE95;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 1;
+}
+
+button:focus {
+  outline: #17a325 solid 1px;
+}
+
+.test2__item {
+  width: 768px;
+  text-align: left;
+}
+
+.test2__item li {
+  display: flex;
+  align-items: center;
+}
+
+.test2__item li + li {
+  margin-top: 10px;
+}
+
+.test2__item li div {
+}
+
+.test2__item__avatar {
+  width: 130px;
+  height: 130px;
+}
+.test2__item__avatar img {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}
+
+.test2__item__info {
+  margin-left: 10px;
+}
+.test2__item__info__address {
+  color: gainsboro;
+}
+
+.test2__item__info__tag {
+  border: 1px solid gainsboro;
+  display: inline;
+  padding: 5px;
+  border-radius: 10px;
+  color: gainsboro;
+}
